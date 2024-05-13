@@ -44,7 +44,7 @@ def capture_video(duration, resolution=(640, 480), fps=30):
     
     # Define the codec and create VideoWriter object
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Use 'mp4v' for MP4 format
-    out = cv2.VideoWriter('captured_video10.mp4', fourcc, fps, resolution)
+    out = cv2.VideoWriter('rgb_video_dark.mp4', fourcc, fps, resolution)
     
     # Capture video for the specified duration
     start_time = cv2.getTickCount() / cv2.getTickFrequency()
