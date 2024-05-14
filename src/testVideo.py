@@ -8,13 +8,13 @@ import cv2
     One set of video is in normal light conditions and the other is in dark condotions
 '''
 
-'''
-video_path_depth = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/depth_video_bright.mp4'
-video_path_rgb = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/rgb_video_bright.mp4'
-output_file_path_rgb = "/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/detected_objects_rgb_bright.txt"
-output_file_path_depth = "/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/detected_objects_depth_bright.txt"
-consolidated_file = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/consolidated_detected_objects_bright.txt'
-'''
+
+# video_path_depth = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/depth_video_bright.mp4'
+# video_path_rgb = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/rgb_video_bright.mp4'
+# output_file_path_rgb = "/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/detected_objects_rgb_bright.txt"
+# output_file_path_depth = "/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/detected_objects_depth_bright.txt"
+# consolidated_file = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/consolidated_detected_objects_bright.txt'
+
 
 video_path_depth = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/depth_video_dark.mp4'
 video_path_rgb = '/Users/kushalprakash/ObjectDetectionAndTracking/sampleVideos/rgb_video_dark.mp4'
